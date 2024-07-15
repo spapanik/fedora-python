@@ -14,5 +14,5 @@ USER ${PYTHON_USER}
 ENV PATH="/home/${PYTHON_USER}/.local/bin:${PATH}"
 ENV PYTHONPYCACHEPREFIX="/home/${PYTHON_USER}/.cache/pycache/"
 
-RUN pipx install yamk==7.0.0 && \
-    pipx install phosphorus==0.3.0
+RUN pipx install yamk==8.0.0 && \
+    pipx install phosphorus==0.4.0
