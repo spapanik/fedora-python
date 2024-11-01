@@ -16,4 +16,4 @@ ENV PYTHONPYCACHEPREFIX="/home/${PYTHON_USER}/.cache/pycache/"
 
 RUN pipx install yamk==8.1.2 && \
     pipx install phosphorus==0.5.0 && \
-    pipx install uv==0.4.24
+    pipx install uv==0.4.29
